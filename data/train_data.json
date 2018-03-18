@@ -1,0 +1,186 @@
+{
+    "rasa_nlu_data": {
+      "common_examples": [
+        {
+          "text": "hey",
+          "intent": "greet",
+          "entities": [
+          ]
+        },
+        {
+          "text": "hi",
+          "intent": "greet",
+          "entities": [
+          ]
+        },
+        {
+          "text": "hello",
+          "intent": "greet",
+          "entities": [
+          ]
+        },
+        {
+          "text": "bye",
+          "intent": "goodbye",
+          "entities": [
+          ]
+        },
+        {
+          "text": "ciao",
+          "intent": "goodbye",
+          "entities": [
+          ]
+        },
+        {
+          "text": "bye bye",
+          "intent": "goodbye",
+          "entities": [
+          ]
+        },
+        {
+          "text": "How much is bitcoin?",
+          "intent": "search",
+          "entities": [
+            {
+              "start": 12,
+              "end": 19,
+              "value": "bitcoin",
+              "entity": "currency"
+            }
+          ]
+        },
+        {
+          "text": "What is the price of bitcoin?",
+          "intent": "search",
+          "entities": [
+            {
+              "start": 21,
+              "end": 28,
+              "value": "bitcoin",
+              "entity": "currency"
+            }
+          ]
+        },
+        {
+          "text": "How high is the price of bitcoin?",
+          "intent": "search",
+          "entities": [
+            {
+              "start": 25,
+              "end": 32,
+              "value": "bitcoin",
+              "entity": "currency"
+            }
+          ]
+        },
+        {
+          "text": "How much is ethereum?",
+          "intent": "search",
+          "entities": [
+            {
+              "start": 12,
+              "end": 20,
+              "value": "ethereum",
+              "entity": "currency"
+            }
+          ]
+        },
+        {
+          "text": "What is the price of ethereum?",
+          "intent": "search",
+          "entities": [
+            {
+              "start": 21,
+              "end": 29,
+              "value": "ethereum",
+              "entity": "currency"
+            }
+          ]
+        },
+        {
+          "text": "How high is the price of ethereum?",
+          "intent": "search",
+          "entities": [
+            {
+              "start": 25,
+              "end": 33,
+              "value": "ethereum",
+              "entity": "currency"
+            }
+          ]
+        },
+        {
+          "text": "How much is ripple?",
+          "intent": "search",
+          "entities": [
+            {
+              "start": 12,
+              "end": 18,
+              "value": "ripple",
+              "entity": "currency"
+            }
+          ]
+        },
+        {
+          "text": "What is the price of ripple?",
+          "intent": "search",
+          "entities": [
+            {
+              "start": 21,
+              "end": 27,
+              "value": "ripple",
+              "entity": "currency"
+            }
+          ]
+        },
+        {
+          "text": "How high is the price of ripple?",
+          "intent": "search",
+          "entities": [
+            {
+              "start": 25,
+              "end": 31,
+              "value": "ripple",
+              "entity": "currency"
+            }
+          ]
+        },
+        {
+          "text": "How much is litecoin?",
+          "intent": "search",
+          "entities": [
+            {
+              "start": 12,
+              "end": 20,
+              "value": "litecoin",
+              "entity": "currency"
+            }
+          ]
+        },
+        {
+          "text": "What is the price of litecoin?",
+          "intent": "search",
+          "entities": [
+            {
+              "start": 21,
+              "end": 29,
+              "value": "litecoin",
+              "entity": "currency"
+            }
+          ]
+        },
+        {
+          "text": "How high is the price of litecoin?",
+          "intent": "search",
+          "entities": [
+            {
+              "start": 25,
+              "end": 33,
+              "value": "litecoin",
+              "entity": "currency"
+            }
+          ]
+        }
+      ]
+    }
+  }

@@ -1,0 +1,26 @@
+intents:
+  - greet
+  - goodbye
+  - search
+
+actions:
+  - utter_greet
+  - utter_crypto_result
+  - actions.crypto_action.CryptoAction
+  - utter_goodbye
+
+slots:
+   currency:
+      type: unfeaturized
+   crypto_result:
+      type: unfeaturized
+
+templates:
+  utter_greet:
+  - text: "Hello... I'm a chatbot specialized for crypto currency news. How may I help you?"
+
+  utter_crypto_result:
+  - text: "Currently the price for {currency} is {crypto_result} $"
+
+  utter_goodbye:
+  - text: "Bye Bye..."

@@ -1,0 +1,34 @@
+action_factory: null
+action_names:
+- utter_greet
+- utter_crypto_result
+- crypto_action
+- utter_goodbye
+actions:
+- utter_greet
+- utter_crypto_result
+- actions.crypto_action.CryptoAction
+- utter_goodbye
+config:
+  store_entities_as_slots: true
+entities: []
+intents:
+- greet
+- goodbye
+- search
+slots:
+  crypto_result:
+    initial_value: null
+    type: rasa_core.slots.UnfeaturizedSlot
+  currency:
+    initial_value: null
+    type: rasa_core.slots.UnfeaturizedSlot
+templates:
+  utter_crypto_result:
+  - text: Currently the price for {currency} is {crypto_result} $
+  utter_goodbye:
+  - text: Bye Bye...
+  utter_greet:
+  - text: Hello... I'm a chatbot specialized for crypto currency news. How may I help
+      you?
+topics: []
